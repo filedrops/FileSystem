@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Filedrops.FileSystem</id>
+        <version>1.0.0</version>
+        <title>Filedrops FileSystem</title>
+        <authors>xplore+</authors>
+        <owners>xplore+</owners>
+        <projectUrl>https://github.com/filedrops/filesystem</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Several protocols and systems support the storage of files. E.g. cloud services (dropbox, box.net, ...), document mangement systems (ms sharepoint, emc documentum, ...), protocols (webdav, ftp), ... 
+Filedrops FileSystem is an abstraction layer which can be used to write a specific virtual file system implementation.</description>
+        <copyright>xplore+ 2013</copyright>
+        <tags>filedrops, filesystem</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="PresentationCore" targetFramework="" />
+            <frameworkAssembly assemblyName="PresentationFramework" targetFramework="" />
+            <frameworkAssembly assemblyName="WindowsBase" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="Filedrops.FileSystem.dll" target="Filedrops.FileSystem.dll" />
+    </files>
+</package>
